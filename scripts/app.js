@@ -28,7 +28,7 @@
         MainContent.appendChild(MainParagraph);
 
         let DocumentBody = document.body;
-        let Article = document.createElement("h1");
+        let Article = document.createElement("p");
         let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3>">This is my article paragraph</p>`;
 
         Article.setAttribute("class","container");
